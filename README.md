@@ -27,7 +27,16 @@ An AI-powered assistant that can understand natural language commands and automa
 
 ## 🗂️ Project Structure
 
-<pre> ```text 📁 app/ ├── main.py # FastAPI app ├── planner.py # Plan generation from LLM ├── executor.py # Executes each step in browser ├── utils.py # Helper functions ├── schemas.py # Pydantic models 📁 ui/ └── streamlit_app.py # Chat interface .env # Environment secrets requirements.txt ``` </pre>
+📁 app/
+├── main.py                 # FastAPI app
+├── planner.py              # Plan generation from LLM
+├── executor.py             # Executes each step in browser
+├── utils.py                # Helper functions
+├── schemas.py              # Pydantic models
+📁 ui/
+└── streamlit_app.py        # Chat interface
+.env                        # Environment secrets
+requirements.txt
 
 
 ## 🧪 How to Run
@@ -37,5 +46,22 @@ An AI-powered assistant that can understand natural language commands and automa
 ```bash
 git clone https://github.com/Danish137/Conversation-web-browser-automation-Assistant.git
 cd Conversation-web-browser-automation-Assistant
+
+### 2. Create a virtual environment
+```bash
+uv venv email-assistant
+uv pip install -r requirements.txt
+
+### 3. Set environment variables
+```bash
+cp .env.example .env  # Then add your secrets like email, password, API keys
+
+### 4. Run the backend server
+```bash
+uvicorn app.main:app --reload
+
+### 5. Run the UI in another terminal
+```bash
+streamlit run ui/streamlit_app.py
 
 
