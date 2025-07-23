@@ -26,6 +26,7 @@ An AI-powered assistant that can understand natural language commands and automa
 | TTS (Optional)   | ElevenLabs               |
 
 ## 🗂️ Project Structure
+
 📁 app/
 ├── main.py # FastAPI app
 ├── planner.py # Plan generation from LLM
