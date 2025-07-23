@@ -27,16 +27,7 @@ An AI-powered assistant that can understand natural language commands and automa
 
 ## 🗂️ Project Structure
 
-📁 app/
-├── main.py # FastAPI app
-├── planner.py # Plan generation from LLM
-├── executor.py # Executes each step in browser
-├── utils.py # Helper functions
-├── schemas.py # Pydantic models
-📁 ui/
-└── streamlit_app.py # Chat interface
-.env # Environment secrets
-requirements.txt
+<pre> ```text 📁 app/ ├── main.py # FastAPI app ├── planner.py # Plan generation from LLM ├── executor.py # Executes each step in browser ├── utils.py # Helper functions ├── schemas.py # Pydantic models 📁 ui/ └── streamlit_app.py # Chat interface .env # Environment secrets requirements.txt ``` </pre>
 
 
 ## 🧪 How to Run
