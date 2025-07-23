@@ -26,4 +26,24 @@ An AI-powered assistant that can understand natural language commands and automa
 | TTS (Optional)   | ElevenLabs               |
 
 ## 🗂️ Project Structure
+📁 app/
+├── main.py # FastAPI app
+├── planner.py # Plan generation from LLM
+├── executor.py # Executes each step in browser
+├── utils.py # Helper functions
+├── schemas.py # Pydantic models
+📁 ui/
+└── streamlit_app.py # Chat interface
+.env # Environment secrets
+requirements.txt
+
+
+## 🧪 How to Run
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/Danish137/Conversation-web-browser-automation-Assistant.git
+cd Conversation-web-browser-automation-Assistant
+
 
