@@ -21,9 +21,8 @@ An AI-powered assistant that can understand natural language commands and automa
 | Backend API      | FastAPI                  |
 | Frontend         | Streamlit                |
 | Browser Control  | Playwright               |
-| LLM Integration  | OpenRouter / Groq / OpenAI (configurable) |
+| LLM Integration  | OpenRouter |
 | Memory & Cache   | LangChain + Redis (optional) |
-| TTS (Optional)   | ElevenLabs               |
 
 ## 🗂️ Project Structure
 
